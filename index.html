@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Cars OOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Cars</h1>
+        <form id="car-form" action="save.html">
+            <fieldset>
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand"><br><br>
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model"><br><br>
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year"><br><br>
+            
+            <input type="submit" value="Add Car">
+            </fieldset>
+        </form>
+
+        <table id="car-table">
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody id="car-list">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

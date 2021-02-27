@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background: #FFF;
+}
+
+#app{
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+form#car-form{
+    margin-bottom: 50px;
+}
+
+form#car-form fieldset{
+    border: 0;
+}
+
+form#car-form fieldset label{
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+form#car-form fieldset input[type=text]{
+    padding: 5px 10px;
+}
+
+form#car-form fieldset input[type=submit]{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    background: #EEE;
+    color: #000;
+}
+
+form#car-form fieldset input[type=submit]:hover{
+    background: #000;
+    color: #FFF;
+}
+
+table#car-table{
+    width: 100%;
+}
+
+table#car-table thead tr th{
+    background: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: left;
+}
+
+table#car-table tbody tr td{
+    padding: 10px;
+}
+
+table#car-table tbody tr:nth-child(odd){
+    background-color: #EEE;
+    color: #000;
+  }
